@@ -1,0 +1,21 @@
+# Programa que muestra información según la elección del usuario Diego Alejandro Salcido Pérez//
+# 26/07/26
+
+consulta = input("Ingresa el nombre del artista (, pelicula o serie) que deseas consultar: ")
+match consulta.lower():
+    case "inception":
+        info = ("Inception es una película de ciencia ficción dirigida por Christopher Nolan, estrenada ")
+    case "beattles":
+        info = ("The Beatles fue una banda de rock británica formada en Liverpool en 1960")
+    case "rick and morty":
+        info = ("Serie animada de comedia y ciencia ficcion")
+
+    case "stranger things":
+        info = ("Serie de terror y ciencia ficcion de netfli")
+    case "avengers":
+        info = ("Pelicula de superherores del mcu")
+    case _:
+        info = ("No se encontro la info")
+
+print(info)
+    
