@@ -1,7 +1,7 @@
 # Script para calcular el porcentaje de descuento de un producto
 # Diego Alejandro Salcido Pérez
 # 26/07/26
-#Version propia del programa con algunas mejoras, como el saldo descontado y agradecimiento porl la compra.
+#Version propia del programa con algunas mejoras, como el saldo descontado ademas del porcentaje y agradecimiento porl la compra.
 precio_original = float(input("Ingresa el precio original del producto: "))
 
 if precio_original < 100:
